@@ -1,0 +1,5 @@
+C:\Users\kleiton.souza\source\repos\Cad-BenefAPI\Cad-BenefAPI\obj\Debug\net8.0\win-x64\PubTmp\Out\appsettings.Development.json
+C:\Users\kleiton.souza\source\repos\Cad-BenefAPI\Cad-BenefAPI\obj\Debug\net8.0\win-x64\PubTmp\Out\appsettings.json
+C:\Users\kleiton.souza\source\repos\Cad-BenefAPI\Cad-BenefAPI\obj\Debug\net8.0\win-x64\PubTmp\Out\Cad-BenefAPI.pdb
+C:\Users\kleiton.souza\source\repos\Cad-BenefAPI\Cad-BenefAPI\obj\Debug\net8.0\win-x64\PubTmp\Out\Cad-BenefAPI.xml
+C:\Users\kleiton.souza\source\repos\Cad-BenefAPI\Cad-BenefAPI\obj\Debug\net8.0\win-x64\PubTmp\Out\Cad-BenefAPI.exe

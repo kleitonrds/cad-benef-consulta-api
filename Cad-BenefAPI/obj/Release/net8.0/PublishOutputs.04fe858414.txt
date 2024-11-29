@@ -1,0 +1,13 @@
+C:\Users\kleiton.souza\source\repos\Cad-BenefAPI\Cad-BenefAPI\obj\Release\net8.0\PubTmp\Out\Cad-BenefAPI.exe
+C:\Users\kleiton.souza\source\repos\Cad-BenefAPI\Cad-BenefAPI\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\kleiton.souza\source\repos\Cad-BenefAPI\Cad-BenefAPI\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\kleiton.souza\source\repos\Cad-BenefAPI\Cad-BenefAPI\obj\Release\net8.0\PubTmp\Out\Cad-BenefAPI.dll
+C:\Users\kleiton.souza\source\repos\Cad-BenefAPI\Cad-BenefAPI\obj\Release\net8.0\PubTmp\Out\Cad-BenefAPI.deps.json
+C:\Users\kleiton.souza\source\repos\Cad-BenefAPI\Cad-BenefAPI\obj\Release\net8.0\PubTmp\Out\Cad-BenefAPI.runtimeconfig.json
+C:\Users\kleiton.souza\source\repos\Cad-BenefAPI\Cad-BenefAPI\obj\Release\net8.0\PubTmp\Out\Cad-BenefAPI.pdb
+C:\Users\kleiton.souza\source\repos\Cad-BenefAPI\Cad-BenefAPI\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\kleiton.souza\source\repos\Cad-BenefAPI\Cad-BenefAPI\obj\Release\net8.0\PubTmp\Out\Newtonsoft.Json.dll
+C:\Users\kleiton.souza\source\repos\Cad-BenefAPI\Cad-BenefAPI\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\kleiton.souza\source\repos\Cad-BenefAPI\Cad-BenefAPI\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\kleiton.souza\source\repos\Cad-BenefAPI\Cad-BenefAPI\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\kleiton.souza\source\repos\Cad-BenefAPI\Cad-BenefAPI\obj\Release\net8.0\PubTmp\Out\Cad-BenefAPI.xml

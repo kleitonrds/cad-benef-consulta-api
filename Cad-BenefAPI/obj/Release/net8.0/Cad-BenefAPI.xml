@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Cad-BenefAPI</name>
+    </assembly>
+    <members>
+        <member name="M:Cad_BenefAPI.Controllers.CadBenefController.ConsultaDadosBeneficiario(Cad_BenefAPI.Models.BeneficiarioRequest,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Consulta os dados do beneficiário.
+            </summary>
+            <param name="request">Dados do Beneficiário para a consulta (codigoUnimed, codigoCarteirinha e codigoControleUnimedBrasil). </param>
+            <param name="caminhoCertificado">Caminho do certificado usado na homologação do Cad-Benef.</param>
+            <param name="senhaCertificado">Senha do certificado usado no Cad-Benef.</param>
+            <param name="clientId">CLIENT-ID fornecido pela Unimed Brasil.</param>
+            <param name="secretId">SECRET-ID fornecido pela Unimed Brasil.</param>
+            <param name="tokenAccessCode">Token de acesso utilizado na homologação do Cad-Benef</param>
+            <param name="apiUrl">Endereço do endpoint que vai consumir o serviço de consulta de dados</param>
+            <returns>Dados do beneficiário no formato JSON ou mensagem de erro.</returns>
+        </member>
+        <member name="M:Cad_BenefAPI.Controllers.CadBenefController.ConsultaAtivosPorPeriodo(Cad_BenefAPI.Models.BeneficiariosAtivosRequest,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Consulta os beneficiários que foram ativados dentro de um determinado período.
+            </summary>
+            <param name="request">Dados do Beneficiário para a consulta (codigoUnimed, codigoCarteirinha e codigoControleUnimedBrasil). </param>
+            <param name="caminhoCertificado">Caminho do certificado usado na homologação do Cad-Benef.</param>
+            <param name="senhaCertificado">Senha do certificado usado no Cad-Benef.</param>
+            <param name="clientId">CLIENT-ID fornecido pela Unimed Brasil.</param>
+            <param name="secretId">SECRET-ID fornecido pela Unimed Brasil.</param>
+            <param name="tokenAccessCode">Token de acesso utilizado na homologação do Cad-Benef</param>
+            <param name="apiUrl">Endereço do endpoint que vai consumir o serviço de consulta de dados</param>
+            <returns>Dados do beneficiário no formato JSON ou mensagem de erro.</returns>
+        </member>
+        <member name="M:Cad_BenefAPI.Controllers.CadBenefController.ConsultaCarteiraPorCpf(Cad_BenefAPI.Models.BeneficiarioConsultaCarteiraPorCpfRequest,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+             Consulta a carteirinha e o código de controle Unimed do Brasil do beneficiário.
+            </summary>
+            <param name="request">Dados do Beneficiário para a consulta (codigoUnimed, codigoCarteirinha e codigoControleUnimedBrasil). </param>
+            <param name="caminhoCertificado">Caminho do certificado usado na homologação do Cad-Benef.</param>
+            <param name="senhaCertificado">Senha do certificado usado no Cad-Benef.</param>
+            <param name="clientId">CLIENT-ID fornecido pela Unimed Brasil.</param>
+            <param name="secretId">SECRET-ID fornecido pela Unimed Brasil.</param>
+            <param name="tokenAccessCode">Token de acesso utilizado na homologação do Cad-Benef</param>
+            <param name="apiUrl">Endereço do endpoint que vai consumir o serviço de consulta de dados</param>
+            <returns>Dados do beneficiário no formato JSON ou mensagem de erro.</returns>
+        </member>
+        <member name="T:Cad_BenefAPI.Services.BeneficiarioService">
+            <summary>
+            Classe responsável por consumir os serviços de consulta do CAD-BENEF
+            </summary>
+        </member>
+        <member name="M:Cad_BenefAPI.Services.BeneficiarioService.ConsultaAtivosPorPeriodo(Cad_BenefAPI.Models.BeneficiariosAtivosRequest,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Método responsável pela consulta dos beneficiários que foram ativados dentro de um determinado período.
+            </summary>
+            <param name="request"></param>
+            <param name="caminhoCertificado"></param>
+            <param name="senhaCertificado"></param>
+            <param name="clientId"></param>
+            <param name="secretId"></param>
+            <param name="tokenAccessCode"></param>
+            <param name="apiUrl"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Cad_BenefAPI.Services.BeneficiarioService.ConsultaCarteiraPorCpf(Cad_BenefAPI.Models.BeneficiarioConsultaCarteiraPorCpfRequest,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Metódo responsável por consultar a carteirinha e o código de controle Unimed do Brasil do beneficiário através do envio do código da Unimed e CPF
+            </summary>
+            <param name="request"></param>
+            <param name="caminhoCertificado"></param>
+            <param name="senhaCertificado"></param>
+            <param name="clientId"></param>
+            <param name="secretId"></param>
+            <param name="tokenAccessCode"></param>
+            <param name="apiUrl"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Cad_BenefAPI.Services.BeneficiarioService.ConsultaDadosBeneficiario(Cad_BenefAPI.Models.BeneficiarioRequest,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Metódo responsável por consultar os dados do beneficiário.
+            </summary>
+            <param name="request"></param>
+            <param name="caminhoCertificado"></param>
+            <param name="senhaCertificado"></param>
+            <param name="clientId"></param>
+            <param name="secretId"></param>
+            <param name="tokenAccessCode"></param>
+            <param name="apiUrl"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

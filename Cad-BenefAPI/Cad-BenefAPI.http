@@ -1,0 +1,6 @@
+@Cad_BenefAPI_HostAddress = http://localhost:5279
+
+GET {{Cad_BenefAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
